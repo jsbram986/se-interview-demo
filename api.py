@@ -1,3 +1,4 @@
+import tracing  # noqa: F401  # must come first: sets up Phoenix tracing before the agent is built
 from dotenv import load_dotenv
 from fastapi import FastAPI
 from langchain_core.messages import HumanMessage

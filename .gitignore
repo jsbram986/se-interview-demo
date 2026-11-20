@@ -7,3 +7,9 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+
+# Poetry installer logs
+poetry-installer-error-*.log
+
+# macOS
+.DS_Store
